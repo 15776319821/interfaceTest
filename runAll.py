@@ -3,15 +3,15 @@ import common.HTMLTestRunner as HTMLTestRunner
 import getpathInfo
 import unittest
 import readConfig
-from common.configEmail import send_email
-from apscheduler.schedulers.blocking import BlockingScheduler
-import pythoncom
+# from common.configEmail import send_email
+# from apscheduler.schedulers.blocking import BlockingScheduler
+# import pythoncom
 import common.Log
 
-send_mail = send_email()
+# send_mail = send_email()
 path = getpathInfo.get_Path()
 report_path = os.path.join(path, 'result')
-on_off = readConfig.ReadConfig().get_email('on_off')
+# on_off = readConfig.ReadConfig().get_email('on_off')
 log = common.Log.logger
 
 class AllTest:#定义一个类AllTest
@@ -79,18 +79,20 @@ class AllTest:#定义一个类AllTest
             else:
                 print("Have no case to test.")
         except Exception as ex:
+            print('----------------------')
             print(str(ex))
-            #log.info(str(ex))
+            log.info(str(ex))
 
         finally:
             print("*********TEST END*********")
-            #log.info("*********TEST END*********")
+            log.info("*********TEST END*********")
             fp.close()
-        #判断邮件发送的开关
-        if on_off == 'on':
-            send_mail.outlook()
-        else:
-            print("邮件发送开关配置关闭，请打开开关后可正常自动发送测试报告")
+
+        # #判断邮件发送的开关
+        # if on_off == 'on':
+        #     send_mail.outlook()
+        # else:
+        #     print("邮件发送开关配置关闭，请打开开关后可正常自动发送测试报告")
 # pythoncom.CoInitialize()
 # scheduler = BlockingScheduler()
 # scheduler.add_job(AllTest().run, 'cron', day_of_week='1-5', hour=14, minute=59)

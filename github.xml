@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="5a1d410f-1746-43b4-96c0-159c09cb01d3" name="15776319821">
+      <server useHttp="false" host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="OPEN_IN_BROWSER_GIST" value="false" />
     <option name="COPY_URL_GIST" value="true" />

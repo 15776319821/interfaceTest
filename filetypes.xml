@@ -6,6 +6,7 @@
       <mapping pattern="test02.py" type="PLAIN_TEXT" />
       <mapping pattern="config.ini" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping ext="2020-04-01" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

@@ -191,9 +191,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Test Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-04-01 17:27:09</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.634320</p>
-<p class='attribute'><strong>Status:</strong> Pass 9</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-04-16 17:50:53</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:02.533236</p>
+<p class='attribute'><strong>Status:</strong> Pass 20 | Failure 5 | Error 8</p>
 
 <p class='description'>Test Description</p>
 </div>
@@ -224,8 +224,8 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_0</td>
-    <td>login</td>
+    <td>paramunittest.testGroup_0</td>
+    <td>checkStatus0</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -234,7 +234,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test02case</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_orderList</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -248,10 +248,10 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: login测试开始前准备
+pt1.1: checkStatus0测试开始前准备
 {
-  "msg": "登陆成功！",
-  "state": 0
+  "msg": "login success",
+  "state": 1
 }
 测试结束，输出log完结
 
@@ -266,8 +266,8 @@ pt1.1: login测试开始前准备
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_1</td>
-    <td>login_error</td>
+    <td>paramunittest.testGroup_1</td>
+    <td>checkStatus1</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -276,7 +276,7 @@ pt1.1: login测试开始前准备
 </tr>
 
 <tr id='pt2.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test02case</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_orderList</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -290,9 +290,9 @@ pt1.1: login测试开始前准备
         </div>
         <pre>
         
-pt2.1: login_error测试开始前准备
+pt2.1: checkStatus1测试开始前准备
 {
-  "msg": "用户名或密码错误！",
+  "msg": "login success",
   "state": 1
 }
 测试结束，输出log完结
@@ -308,8 +308,8 @@ pt2.1: login_error测试开始前准备
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_2</td>
-    <td>login_null</td>
+    <td>paramunittest.testGroup_2</td>
+    <td>checkStatus2</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -318,7 +318,7 @@ pt2.1: login_error测试开始前准备
 </tr>
 
 <tr id='pt3.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test02case</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_orderList</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -332,9 +332,9 @@ pt2.1: login_error测试开始前准备
         </div>
         <pre>
         
-pt3.1: login_null测试开始前准备
+pt3.1: checkStatus2测试开始前准备
 {
-  "msg": "用户名或密码错误！",
+  "msg": "login success",
   "state": 1
 }
 测试结束，输出log完结
@@ -350,7 +350,7 @@ pt3.1: login_null测试开始前准备
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_0</td>
+    <td>paramunittest.testGroup_0</td>
     <td>checkStatus0</td>
     <td>1</td>
     <td>1</td>
@@ -360,7 +360,7 @@ pt3.1: login_null测试开始前准备
 </tr>
 
 <tr id='pt4.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test_user_baseInfo</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_level_logs</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -376,24 +376,12 @@ pt3.1: login_null测试开始前准备
         
 pt4.1: checkStatus0测试开始前准备
 {
-  "msg": "登陆成功！",
-  "state": 0
+  "msg": "login success",
+  "state": 1
 }
 {
-  "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
-    ],
-    "userName": "田磊"
-  },
-  "msg": null,
+  "data": null,
+  "msg": "获取失败",
   "state": 0
 }
 测试结束，输出log完结
@@ -409,7 +397,7 @@ pt4.1: checkStatus0测试开始前准备
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_1</td>
+    <td>paramunittest.testGroup_1</td>
     <td>checkStatus1</td>
     <td>1</td>
     <td>1</td>
@@ -419,7 +407,7 @@ pt4.1: checkStatus0测试开始前准备
 </tr>
 
 <tr id='pt5.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test_user_baseInfo</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_level_logs</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -435,25 +423,33 @@ pt4.1: checkStatus0测试开始前准备
         
 pt5.1: checkStatus1测试开始前准备
 {
-  "msg": "登陆成功！",
-  "state": 0
+  "msg": "login success",
+  "state": 1
 }
 {
   "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
+    "addedMonthCount": null,
+    "addedTodayCount": null,
+    "begin": 0,
+    "key": "",
+    "pageNum": 1,
+    "pageSize": 8,
+    "rows": [
+      {
+        "effectiveTime": "2020年04月15日 00:00:08",
+        "id": 1,
+        "operatingLog": "更改甲级病案分值,至:85-100; 更改乙级病案分值,至:75-85; 更改乙级病案单项否决数范围,修改为(0,4]; 更改丙级病案单项否决数最小值,修改为:4; ",
+        "updateTime": "2020年04月14日 23:59:10",
+        "userEid": "test01",
+        "userId": null,
+        "userName": "测试01"
+      }
     ],
-    "userName": "田磊"
+    "total": 1,
+    "totalPage": 1
   },
-  "msg": null,
-  "state": 0
+  "msg": "成功",
+  "state": 1
 }
 测试结束，输出log完结
 
@@ -468,8 +464,8 @@ pt5.1: checkStatus1测试开始前准备
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_0</td>
-    <td>checkStatus0</td>
+    <td>paramunittest.testGroup_2</td>
+    <td>checkStatus2</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -478,7 +474,7 @@ pt5.1: checkStatus1测试开始前准备
 </tr>
 
 <tr id='pt6.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test_msg_unReadCount</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_level_logs</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -492,15 +488,35 @@ pt5.1: checkStatus1测试开始前准备
         </div>
         <pre>
         
-pt6.1: checkStatus0测试开始前准备
+pt6.1: checkStatus2测试开始前准备
 {
-  "msg": "登陆成功！",
-  "state": 0
+  "msg": "login success",
+  "state": 1
 }
 {
-  "data": 0,
+  "data": {
+    "addedMonthCount": null,
+    "addedTodayCount": null,
+    "begin": 0,
+    "key": "",
+    "pageNum": 1,
+    "pageSize": 8,
+    "rows": [
+      {
+        "effectiveTime": "2020年04月15日 00:00:08",
+        "id": 1,
+        "operatingLog": "更改甲级病案分值,至:85-100; 更改乙级病案分值,至:75-85; 更改乙级病案单项否决数范围,修改为(0,4]; 更改丙级病案单项否决数最小值,修改为:4; ",
+        "updateTime": "2020年04月14日 23:59:10",
+        "userEid": "test01",
+        "userId": null,
+        "userName": "测试01"
+      }
+    ],
+    "total": 1,
+    "totalPage": 1
+  },
   "msg": "成功",
-  "state": 0
+  "state": 1
 }
 测试结束，输出log完结
 
@@ -515,8 +531,8 @@ pt6.1: checkStatus0测试开始前准备
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_1</td>
-    <td>checkStatus1</td>
+    <td>paramunittest.testGroup_0</td>
+    <td>checkStatus0</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -525,7 +541,7 @@ pt6.1: checkStatus0测试开始前准备
 </tr>
 
 <tr id='pt7.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test_msg_unReadCount</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_level_save</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -539,15 +555,15 @@ pt6.1: checkStatus0测试开始前准备
         </div>
         <pre>
         
-pt7.1: checkStatus1测试开始前准备
+pt7.1: checkStatus0测试开始前准备
 {
-  "msg": "登陆成功！",
-  "state": 0
+  "msg": "login success",
+  "state": 1
 }
 {
-  "data": 0,
-  "msg": "成功",
-  "state": 0
+  "data": null,
+  "msg": "保存成功",
+  "state": 1
 }
 测试结束，输出log完结
 
@@ -562,8 +578,8 @@ pt7.1: checkStatus1测试开始前准备
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_0</td>
-    <td>checkStatus0</td>
+    <td>paramunittest.testGroup_1</td>
+    <td>checkStatus1</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -572,7 +588,7 @@ pt7.1: checkStatus1测试开始前准备
 </tr>
 
 <tr id='pt8.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test_homepage_console_tips</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_level_save</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -586,14 +602,14 @@ pt7.1: checkStatus1测试开始前准备
         </div>
         <pre>
         
-pt8.1: checkStatus0测试开始前准备
+pt8.1: checkStatus1测试开始前准备
 {
-  "msg": "登陆成功！",
-  "state": 0
+  "msg": "login success",
+  "state": 1
 }
 {
   "data": null,
-  "msg": "操作成功",
+  "msg": "更新过于频繁,请10分钟后再操作.",
   "state": 0
 }
 测试结束，输出log完结
@@ -609,8 +625,8 @@ pt8.1: checkStatus0测试开始前准备
 </tr>
 
 <tr class='passClass'>
-    <td>paramunittest.testUserLogin_1</td>
-    <td>checkStatus1</td>
+    <td>paramunittest.testGroup_2</td>
+    <td>checkStatus2</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -619,7 +635,7 @@ pt8.1: checkStatus0测试开始前准备
 </tr>
 
 <tr id='pt9.1' class='hiddenRow'>
-    <td colspan='2' class='none'><div class='testcase'>test_homepage_console_tips</div></td>
+    <td colspan='2' class='none'><div class='testcase'>test_level_save</div></td>
     <td colspan='7' align='center'>
 
     <!--css div popup start-->
@@ -633,15 +649,1254 @@ pt8.1: checkStatus0测试开始前准备
         </div>
         <pre>
         
-pt9.1: checkStatus1测试开始前准备
+pt9.1: checkStatus2测试开始前准备
 {
-  "msg": "登陆成功！",
-  "state": 0
+  "msg": "login success",
+  "state": 1
 }
 {
   "data": null,
-  "msg": "操作成功",
+  "msg": "更新过于频繁,请10分钟后再操作.",
   "state": 0
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_0</td>
+    <td>checkStatus0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c10',1)">Detail</a></td>
+</tr>
+
+<tr id='pt10.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_groups</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt10.1')" >
+        pass</a>
+
+    <div id='div_pt10.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt10.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt10.1: checkStatus0测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>paramunittest.testGroup_1</td>
+    <td>checkStatus1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c11',1)">Detail</a></td>
+</tr>
+
+<tr id='ft11.1' class='none'>
+    <td colspan='2' class='failCase'><div class='testcase'>test_groups</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft11.1')" >
+        fail</a>
+
+    <div id='div_ft11.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft11.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft11.1: checkStatus1测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_groups.py", line 52, in test_groups
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_groups.py", line 73, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+AssertionError: 1 != 0.0
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>paramunittest.testGroup_2</td>
+    <td>checkStatus2</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c12',1)">Detail</a></td>
+</tr>
+
+<tr id='ft12.1' class='none'>
+    <td colspan='2' class='failCase'><div class='testcase'>test_groups</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft12.1')" >
+        fail</a>
+
+    <div id='div_ft12.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft12.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft12.1: checkStatus2测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_groups.py", line 52, in test_groups
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_groups.py", line 73, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+AssertionError: 1 != 0.0
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_0</td>
+    <td>checkStatus0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c13',1)">Detail</a></td>
+</tr>
+
+<tr id='pt13.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_level_logs</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt13.1')" >
+        pass</a>
+
+    <div id='div_pt13.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt13.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt13.1: checkStatus0测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "data": null,
+  "msg": "获取失败",
+  "state": 0
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_1</td>
+    <td>checkStatus1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c14',1)">Detail</a></td>
+</tr>
+
+<tr id='pt14.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_level_logs</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt14.1')" >
+        pass</a>
+
+    <div id='div_pt14.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt14.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt14.1: checkStatus1测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "data": {
+    "addedMonthCount": null,
+    "addedTodayCount": null,
+    "begin": 0,
+    "key": "",
+    "pageNum": 1,
+    "pageSize": 8,
+    "rows": [
+      {
+        "effectiveTime": "2020年04月15日 00:00:08",
+        "id": 1,
+        "operatingLog": "更改甲级病案分值,至:85-100; 更改乙级病案分值,至:75-85; 更改乙级病案单项否决数范围,修改为(0,4]; 更改丙级病案单项否决数最小值,修改为:4; ",
+        "updateTime": "2020年04月14日 23:59:10",
+        "userEid": "test01",
+        "userId": null,
+        "userName": "测试01"
+      }
+    ],
+    "total": 1,
+    "totalPage": 1
+  },
+  "msg": "成功",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_2</td>
+    <td>checkStatus2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c15',1)">Detail</a></td>
+</tr>
+
+<tr id='pt15.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_level_logs</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt15.1')" >
+        pass</a>
+
+    <div id='div_pt15.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt15.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt15.1: checkStatus2测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "data": {
+    "addedMonthCount": null,
+    "addedTodayCount": null,
+    "begin": 0,
+    "key": "",
+    "pageNum": 1,
+    "pageSize": 8,
+    "rows": [
+      {
+        "effectiveTime": "2020年04月15日 00:00:08",
+        "id": 1,
+        "operatingLog": "更改甲级病案分值,至:85-100; 更改乙级病案分值,至:75-85; 更改乙级病案单项否决数范围,修改为(0,4]; 更改丙级病案单项否决数最小值,修改为:4; ",
+        "updateTime": "2020年04月14日 23:59:10",
+        "userEid": "test01",
+        "userId": null,
+        "userName": "测试01"
+      }
+    ],
+    "total": 1,
+    "totalPage": 1
+  },
+  "msg": "成功",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>paramunittest.testGroup_0</td>
+    <td>checkStatus0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c16',1)">Detail</a></td>
+</tr>
+
+<tr id='ft16.1' class='none'>
+    <td colspan='2' class='failCase'><div class='testcase'>test_group_copy</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft16.1')" >
+        fail</a>
+
+    <div id='div_ft16.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft16.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft16.1: checkStatus0测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_group_copy.py", line 52, in test_group_copy
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_group_copy.py", line 74, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+AssertionError: 0 != 1.0
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_1</td>
+    <td>重复</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c17',1)">Detail</a></td>
+</tr>
+
+<tr id='pt17.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_group_copy</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt17.1')" >
+        pass</a>
+
+    <div id='div_pt17.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt17.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt17.1: 重复测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>paramunittest.testGroup_2</td>
+    <td>checkStatus2</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c18',1)">Detail</a></td>
+</tr>
+
+<tr id='ft18.1' class='none'>
+    <td colspan='2' class='failCase'><div class='testcase'>test_group_copy</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft18.1')" >
+        fail</a>
+
+    <div id='div_ft18.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft18.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft18.1: checkStatus2测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_group_copy.py", line 52, in test_group_copy
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_group_copy.py", line 74, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+AssertionError: 0 != 1.0
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_0</td>
+    <td>明日</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c19',1)">Detail</a></td>
+</tr>
+
+<tr id='pt19.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_distribution_save</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt19.1')" >
+        pass</a>
+
+    <div id='div_pt19.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt19.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt19.1: 明日测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+b'{"number":7,"effectiveFlag":1,"ruleGroups":[{"departmentId":1,"groupId":20},{"departmentId":2,"groupId":25},{"departmentId":3,"groupId":12},{"departmentId":4,"groupId":12},{"departmentId":5,"groupId":12},{"departmentId":6,"groupId":12},{"departmentId":7,"groupId":12},{"departmentId":8,"groupId":12},{"departmentId":9,"groupId":14},{"departmentId":172,"groupId":1},{"departmentId":173,"groupId":1}],"mainDiagnoseRuleGroups":[{"id":12,"name":"\xe8\x84\x91\xe6\xa2\x97\xe6\xad\xbb","groupId":23,"ruleGroupName":"888888","oldIndex":0}]}\n'
+{
+  "data": null,
+  "msg": "规则组修改将于明日生效",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>paramunittest.testGroup_1</td>
+    <td>传输错误</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c20',1)">Detail</a></td>
+</tr>
+
+<tr id='ft20.1' class='none'>
+    <td colspan='2' class='errorCase'><div class='testcase'>test_distribution_save</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft20.1')" >
+        error</a>
+
+    <div id='div_ft20.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft20.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft20.1: 传输错误测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+b''
+{
+  "error": "Bad Request",
+  "message": "Required request body is missing: public com.doctorai.ip.back.common.version.Result com.doctorai.ip.back.controller.qc_rule_run.RuleGroupAssignmentRunController.saveGroupList(com.doctorai.ip.back.rule.run.entity.vo.RuleGroupVo,javax.servlet.http.HttpServletRequest)",
+  "path": "/back/distribution/run/save",
+  "status": 400,
+  "timestamp": "2020-04-16T09:51:53.630+0000"
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_distribution_save.py", line 52, in test_distribution_save
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_distribution_save.py", line 77, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+KeyError: 'state'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_2</td>
+    <td>7天</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c21',1)">Detail</a></td>
+</tr>
+
+<tr id='pt21.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_distribution_save</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt21.1')" >
+        pass</a>
+
+    <div id='div_pt21.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt21.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt21.1: 7天测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+b'{"number":7,"effectiveFlag":-1,"ruleGroups":[{"departmentId":1,"groupId":25},{"departmentId":2,"groupId":12},{"departmentId":3,"groupId":12},{"departmentId":4,"groupId":12},{"departmentId":5,"groupId":12},{"departmentId":6,"groupId":12},{"departmentId":7,"groupId":12},{"departmentId":8,"groupId":12},{"departmentId":9,"groupId":14},{"departmentId":10,"groupId":12},{"departmentId":11,"groupId":12},{"departmentId":12,"groupId":12},{"departmentId":13,"groupId":12},{"departmentId":14,"groupId":12},{"departmentId":15,"groupId":12},{"departmentId":16,"groupId":12},{"departmentId":17,"groupId":12},{"departmentId":18,"groupId":12},{"departmentId":19,"groupId":12},{"departmentId":20,"groupId":12},{"departmentId":23,"groupId":12},{"departmentId":25,"groupId":12},{"departmentId":26,"groupId":12},{"departmentId":27,"groupId":12},{"departmentId":28,"groupId":12},{"departmentId":30,"groupId":12},{"departmentId":31,"groupId":12},{"departmentId":32,"groupId":12},{"departmentId":34,"groupId":12},{"departmentId":35,"groupId":12},{"departmentId":38,"groupId":12},{"departmentId":39,"groupId":12},{"departmentId":42,"groupId":12},{"departmentId":44,"groupId":12},{"departmentId":45,"groupId":12},{"departmentId":46,"groupId":12},{"departmentId":50,"groupId":12},{"departmentId":51,"groupId":12},{"departmentId":55,"groupId":12},{"departmentId":56,"groupId":12},{"departmentId":60,"groupId":12},{"departmentId":62,"groupId":12},{"departmentId":65,"groupId":12},{"departmentId":67,"groupId":12},{"departmentId":68,"groupId":12},{"departmentId":70,"groupId":12},{"departmentId":71,"groupId":12},{"departmentId":73,"groupId":12},{"departmentId":74,"groupId":12},{"departmentId":77,"groupId":12},{"departmentId":79,"groupId":12},{"departmentId":82,"groupId":12},{"departmentId":83,"groupId":12},{"departmentId":84,"groupId":12},{"departmentId":86,"groupId":12},{"departmentId":88,"groupId":12},{"departmentId":89,"groupId":12},{"departmentId":90,"groupId":12},{"departmentId":95,"groupId":12},{"departmentId":100,"groupId":12},{"departmentId":101,"groupId":12},{"departmentId":103,"groupId":12},{"departmentId":105,"groupId":12},{"departmentId":106,"groupId":12},{"departmentId":107,"groupId":12},{"departmentId":108,"groupId":12},{"departmentId":109,"groupId":12},{"departmentId":110,"groupId":1},{"departmentId":111,"groupId":1},{"departmentId":112,"groupId":1},{"departmentId":113,"groupId":1},{"departmentId":114,"groupId":1},{"departmentId":115,"groupId":1},{"departmentId":116,"groupId":1},{"departmentId":117,"groupId":1},{"departmentId":118,"groupId":1},{"departmentId":119,"groupId":1},{"departmentId":120,"groupId":1},{"departmentId":121,"groupId":1},{"departmentId":122,"groupId":1},{"departmentId":123,"groupId":1},{"departmentId":124,"groupId":1},{"departmentId":125,"groupId":1},{"departmentId":126,"groupId":1},{"departmentId":127,"groupId":1},{"departmentId":128,"groupId":1},{"departmentId":129,"groupId":1},{"departmentId":130,"groupId":1},{"departmentId":131,"groupId":1},{"departmentId":132,"groupId":1},{"departmentId":133,"groupId":1},{"departmentId":134,"groupId":1},{"departmentId":135,"groupId":1},{"departmentId":136,"groupId":1},{"departmentId":137,"groupId":1},{"departmentId":138,"groupId":1},{"departmentId":139,"groupId":1},{"departmentId":140,"groupId":1},{"departmentId":141,"groupId":1},{"departmentId":142,"groupId":1},{"departmentId":143,"groupId":1},{"departmentId":144,"groupId":1},{"departmentId":145,"groupId":1},{"departmentId":146,"groupId":1},{"departmentId":147,"groupId":1},{"departmentId":148,"groupId":1},{"departmentId":149,"groupId":1},{"departmentId":150,"groupId":1},{"departmentId":151,"groupId":1},{"departmentId":152,"groupId":1},{"departmentId":153,"groupId":1},{"departmentId":154,"groupId":1},{"departmentId":155,"groupId":1},{"departmentId":156,"groupId":1},{"departmentId":157,"groupId":1},{"departmentId":158,"groupId":1},{"departmentId":159,"groupId":1},{"departmentId":160,"groupId":1},{"departmentId":161,"groupId":1},{"departmentId":162,"groupId":1},{"departmentId":163,"groupId":1},{"departmentId":164,"groupId":1},{"departmentId":165,"groupId":1},{"departmentId":166,"groupId":1},{"departmentId":167,"groupId":1},{"departmentId":168,"groupId":1},{"departmentId":169,"groupId":1},{"departmentId":170,"groupId":1},{"departmentId":171,"groupId":1},{"departmentId":172,"groupId":1},{"departmentId":173,"groupId":1}],"mainDiagnoseRuleGroups":[{"id":12,"name":"\xe8\x84\x91\xe6\xa2\x97\xe6\xad\xbb","groupId":23,"ruleGroupName":"888888","oldIndex":0}]}'
+{
+  "data": null,
+  "msg": "更新过于频繁,请10分钟后再操作.",
+  "state": 0
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>paramunittest.testGroup_0</td>
+    <td>无参数-成功</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c22',1)">Detail</a></td>
+</tr>
+
+<tr id='ft22.1' class='none'>
+    <td colspan='2' class='errorCase'><div class='testcase'>test_itemLabel_listLabel</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft22.1')" >
+        error</a>
+
+    <div id='div_ft22.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft22.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft22.1: 无参数-成功测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabel_listLabel.py", line 52, in test_itemLabel_listLabel
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabel_listLabel.py", line 73, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+KeyError: 'state'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>paramunittest.testGroup_1</td>
+    <td>有参数-失败</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c23',1)">Detail</a></td>
+</tr>
+
+<tr id='ft23.1' class='none'>
+    <td colspan='2' class='errorCase'><div class='testcase'>test_itemLabel_listLabel</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft23.1')" >
+        error</a>
+
+    <div id='div_ft23.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft23.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft23.1: 有参数-失败测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabel_listLabel.py", line 52, in test_itemLabel_listLabel
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabel_listLabel.py", line 73, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+KeyError: 'state'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>paramunittest.testGroup_2</td>
+    <td>有参数-失败</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c24',1)">Detail</a></td>
+</tr>
+
+<tr id='ft24.1' class='none'>
+    <td colspan='2' class='errorCase'><div class='testcase'>test_itemLabel_listLabel</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft24.1')" >
+        error</a>
+
+    <div id='div_ft24.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft24.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft24.1: 有参数-失败测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabel_listLabel.py", line 52, in test_itemLabel_listLabel
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabel_listLabel.py", line 73, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+KeyError: 'state'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>paramunittest.testGroup_0</td>
+    <td>无参数-成功</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c25',1)">Detail</a></td>
+</tr>
+
+<tr id='ft25.1' class='none'>
+    <td colspan='2' class='errorCase'><div class='testcase'>test_itemLabelAllot_save</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft25.1')" >
+        error</a>
+
+    <div id='div_ft25.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft25.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft25.1: 无参数-成功测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabelAllot/run/save",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:54.000+0000"
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabelAllot_save.py", line 51, in test_itemLabelAllot_save
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabelAllot_save.py", line 72, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+KeyError: 'msg'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>paramunittest.testGroup_1</td>
+    <td>有参数-失败</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c26',1)">Detail</a></td>
+</tr>
+
+<tr id='ft26.1' class='none'>
+    <td colspan='2' class='errorCase'><div class='testcase'>test_itemLabelAllot_save</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft26.1')" >
+        error</a>
+
+    <div id='div_ft26.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft26.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft26.1: 有参数-失败测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabelAllot/run/save",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:54.069+0000"
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabelAllot_save.py", line 51, in test_itemLabelAllot_save
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabelAllot_save.py", line 72, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+KeyError: 'state'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>paramunittest.testGroup_2</td>
+    <td>参数错误-失败</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c27',1)">Detail</a></td>
+</tr>
+
+<tr id='ft27.1' class='none'>
+    <td colspan='2' class='errorCase'><div class='testcase'>test_itemLabelAllot_save</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft27.1')" >
+        error</a>
+
+    <div id='div_ft27.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft27.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft27.1: 参数错误-失败测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabelAllot/run/save",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:54.133+0000"
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabelAllot_save.py", line 51, in test_itemLabelAllot_save
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_itemLabelAllot_save.py", line 72, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+KeyError: 'state'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_0</td>
+    <td>正常</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c28',1)">Detail</a></td>
+</tr>
+
+<tr id='pt28.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_score_delete</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt28.1')" >
+        pass</a>
+
+    <div id='div_pt28.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt28.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt28.1: 正常测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "data": null,
+  "msg": "成功",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>paramunittest.testGroup_1</td>
+    <td>重复</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c29',1)">Detail</a></td>
+</tr>
+
+<tr id='ft29.1' class='none'>
+    <td colspan='2' class='failCase'><div class='testcase'>test_score_delete</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft29.1')" >
+        fail</a>
+
+    <div id='div_ft29.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft29.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft29.1: 重复测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "data": null,
+  "msg": "成功",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_score_delete.py", line 52, in test_score_delete
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_score_delete.py", line 75, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+AssertionError: 1 != 0.0
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_2</td>
+    <td>没有这个ID</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c30',1)">Detail</a></td>
+</tr>
+
+<tr id='pt30.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_score_delete</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt30.1')" >
+        pass</a>
+
+    <div id='div_pt30.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt30.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt30.1: 没有这个ID测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "data": null,
+  "msg": "成功",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_0</td>
+    <td>表头-成功</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c31',1)">Detail</a></td>
+</tr>
+
+<tr id='pt31.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_config_select</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt31.1')" >
+        pass</a>
+
+    <div id='div_pt31.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt31.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt31.1: 表头-成功测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "data": [
+    "INPUT_DATE_OF_ADMISSION",
+    "INPUT_MEDICAL_RECORD_NUMBER",
+    "INPUT_DEPARTMENT_OF_ADMISSION",
+    "INPUT_HOSPITALIZATION_NUMBER",
+    "INPUT_DISCHARGE_DATE",
+    "INPUT_CAUSES_OF_DEFECTS_RUNNING",
+    "INPUT_OPERATION",
+    "INPUT_FRACTION",
+    "INPUT_NAME_OF_PATIENT",
+    "INPUT_APPEAL_STATUS",
+    "INPUT_DATE_OF_UPDATE",
+    "INPUT_LEAVE_WAY",
+    "INPUT_MEDICAL_RECORD_STATUS",
+    "INPUT_CHIEF_DOCTOR",
+    "INPUT_MAJOR_DIAGNOSIS"
+  ],
+  "msg": "success",
+  "state": 1
+}
+测试结束，输出log完结
+
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>paramunittest.testGroup_1</td>
+    <td>无参数-失败</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c32',1)">Detail</a></td>
+</tr>
+
+<tr id='ft32.1' class='none'>
+    <td colspan='2' class='errorCase'><div class='testcase'>test_config_select</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft32.1')" >
+        error</a>
+
+    <div id='div_ft32.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft32.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft32.1: 无参数-失败测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "error": "Bad Request",
+  "message": "Required request body is missing: public com.doctorai.ip.back.common.Result com.doctorai.ip.back.controller.header_conf.HeaderConfigRunController.select(java.util.Map)",
+  "path": "/back/config/run/select",
+  "status": 400,
+  "timestamp": "2020-04-16T09:51:54.526+0000"
+}
+测试结束，输出log完结
+
+
+Traceback (most recent call last):
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_config_select.py", line 52, in test_config_select
+    self.checkResult()
+  File "E:\py\interfaceTest_back\testCaseGroupRun\test_config_select.py", line 76, in checkResult
+    self.assertEqual(ss[login_xls[i][4]], login_xls[i][5])
+KeyError: 'state'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>paramunittest.testGroup_2</td>
+    <td>筛选-成功</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c33',1)">Detail</a></td>
+</tr>
+
+<tr id='pt33.1' class='hiddenRow'>
+    <td colspan='2' class='none'><div class='testcase'>test_config_select</div></td>
+    <td colspan='7' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt33.1')" >
+        pass</a>
+
+    <div id='div_pt33.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt33.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt33.1: 筛选-成功测试开始前准备
+{
+  "msg": "login success",
+  "state": 1
+}
+{
+  "data": [
+    "HEAD_MEDICAL_RECORD_NUMBER",
+    "HEAD_HOSPITALIZATION_NUMBER",
+    "HEAD_MAJOR_DIAGNOSIS",
+    "HEAD_DATE_OF_UPDATE",
+    "HEAD_DEPARTMENT_OF_ADMISSION",
+    "HEAD_CHIEF_DOCTOR",
+    "HEAD_DEPARTMENT_OF_DISCHARGE",
+    "HEAD_PATIENT_INFORMATION"
+  ],
+  "msg": "success",
+  "state": 1
 }
 测试结束，输出log完结
 
@@ -657,10 +1912,10 @@ pt9.1: checkStatus1测试开始前准备
 
 <tr id='total_row'>
     <td colspan='2'>Total</td>
-    <td>9</td>
-    <td>9</td>
-    <td>0</td>
-    <td>0</td>
+    <td>33</td>
+    <td>20</td>
+    <td>5</td>
+    <td>8</td>
     <td>&nbsp;</td>
 </tr>
 </table>

@@ -1,0 +1,11 @@
+user/test_orderList
+user/test_level_logs
+user/test_level_save
+user/test_groups
+user/test_groups_history
+user/test_group_copy
+user/test_distribution_save
+user/test_itemLabel_listLabel
+user/test_itemLabelAllot_save
+user/test_score_delete
+user/test_config_select

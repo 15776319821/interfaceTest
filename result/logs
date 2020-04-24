@@ -1,413 +1,1172 @@
-2018-12-04 10:33:41,528 - logs… - INFO - resultPathC:\Users\songlihui\PycharmProjects\dkxinterfaceTest\result\report.html
-2018-12-04 10:33:41,529 - logs… - INFO - caseListFileC:\Users\songlihui\PycharmProjects\dkxinterfaceTest\caselist.txt
-2018-12-04 10:33:41,529 - logs… - INFO - caseList[]
-2018-12-04 10:33:46,088 - logs… - INFO - send email ok!!!!
-2018-12-04 10:38:25,918 - logs… - INFO - resultPathC:\Users\songlihui\PycharmProjects\dkxinterfaceTest\result\report.html
-2018-12-04 10:38:25,918 - logs… - INFO - caseListFileC:\Users\songlihui\PycharmProjects\dkxinterfaceTest\caselist.txt
-2018-12-04 10:38:25,918 - logs… - INFO - caseList[]
-2018-12-04 10:38:29,230 - logs… - INFO - send email ok!!!!
-2018-12-04 10:38:44,242 - logs… - INFO - resultPathC:\Users\songlihui\PycharmProjects\dkxinterfaceTest\result\report.html
-2018-12-04 10:38:44,242 - logs… - INFO - caseListFileC:\Users\songlihui\PycharmProjects\dkxinterfaceTest\caselist.txt
-2018-12-04 10:38:44,242 - logs… - INFO - caseList[]
-2018-12-04 10:38:44,414 - logs… - INFO - {
-  "code": 200,
-  "message": "登录成功"
-}
-2018-12-04 10:38:44,414 - logs… - INFO - {
-  "code": 200,
-  "message": "登录成功"
-}
-2018-12-04 10:38:44,418 - logs… - INFO - {
-  "code": -1,
-  "message": "账号密码错误"
-}
-2018-12-04 10:38:44,419 - logs… - INFO - {
-  "code": -1,
-  "message": "账号密码错误"
-}
-2018-12-04 10:38:44,423 - logs… - INFO - {
-  "code": 10001,
-  "message": "参数不能为空！"
-}
-2018-12-04 10:38:44,423 - logs… - INFO - {
-  "code": 10001,
-  "message": "参数不能为空！"
-}
-2018-12-04 10:38:44,683 - logs… - INFO - send email ok!!!!
-2018-12-04 10:41:02,230 - logs… - INFO - resultPathC:\Users\songlihui\PycharmProjects\dkxinterfaceTest\result\report.html
-2018-12-04 10:41:02,231 - logs… - INFO - caseListFileC:\Users\songlihui\PycharmProjects\dkxinterfaceTest\caselist.txt
-2018-12-04 10:41:02,231 - logs… - INFO - caseList[]
-2018-12-04 10:41:02,400 - logs… - INFO - {
-  "code": 200,
-  "message": "登录成功"
-}
-2018-12-04 10:41:02,404 - logs… - INFO - {
-  "code": -1,
-  "message": "账号密码错误"
-}
-2018-12-04 10:41:02,408 - logs… - INFO - {
-  "code": 10001,
-  "message": "参数不能为空！"
-}
-2018-12-04 10:41:02,470 - logs… - INFO - send email ok!!!!
-2020-04-01 16:45:35,958 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 16:45:35,959 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 16:45:35,959 - logs… - INFO - caseList[]
-2020-04-01 16:45:36,301 - logs… - INFO - *********TEST END*********
-2020-04-01 16:48:23,157 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 16:48:23,157 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 16:48:23,157 - logs… - INFO - caseList[]
-2020-04-01 16:48:23,170 - logs… - INFO - *********TEST END*********
-2020-04-01 16:51:43,232 - logs… - INFO - {
-  "code": 10001,
-  "message": "参数不能为空！"
-}
-2020-04-01 16:52:06,346 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 16:52:06,347 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 16:52:06,347 - logs… - INFO - caseList[]
-2020-04-01 16:52:06,484 - logs… - INFO - *********TEST END*********
-2020-04-01 16:53:02,176 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 16:53:02,176 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 16:53:02,176 - logs… - INFO - caseList[]
-2020-04-01 16:53:02,317 - logs… - INFO - *********TEST END*********
-2020-04-01 16:54:34,635 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 16:54:34,635 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 16:54:34,635 - logs… - INFO - caseList[]
-2020-04-01 16:54:34,773 - logs… - INFO - 'super' object has no attribute '__getattr__'
-2020-04-01 16:54:34,773 - logs… - INFO - *********TEST END*********
-2020-04-01 16:55:03,713 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 16:55:03,713 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 16:55:03,713 - logs… - INFO - caseList[]
-2020-04-01 16:55:03,848 - logs… - INFO - 'super' object has no attribute '__getattr__'
-2020-04-01 16:55:03,848 - logs… - INFO - *********TEST END*********
-2020-04-01 16:56:43,502 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 16:56:43,502 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 16:56:43,502 - logs… - INFO - caseList[]
-2020-04-01 16:56:43,649 - logs… - INFO - 'super' object has no attribute '__getattr__'
-2020-04-01 16:56:43,649 - logs… - INFO - *********TEST END*********
-2020-04-01 16:58:07,308 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 16:58:07,308 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 16:58:07,308 - logs… - INFO - caseList[]
-2020-04-01 16:58:07,497 - logs… - INFO - {
-  "code": 200,
-  "message": "登录成功"
-}
-2020-04-01 16:58:07,501 - logs… - INFO - {
-  "code": -1,
-  "message": "账号密码错误"
-}
-2020-04-01 16:58:07,505 - logs… - INFO - {
-  "code": 10001,
-  "message": "参数不能为空！"
-}
-2020-04-01 16:58:07,506 - logs… - INFO - *********TEST END*********
-2020-04-01 17:00:38,593 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:00:38,594 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:00:38,594 - logs… - INFO - caseList[]
-2020-04-01 17:00:42,248 - logs… - INFO - *********TEST END*********
-2020-04-01 17:03:03,660 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:03:03,660 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:03:03,660 - logs… - INFO - caseList[]
-2020-04-01 17:03:04,262 - logs… - INFO - *********TEST END*********
-2020-04-01 17:03:39,939 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:03:39,939 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:03:39,939 - logs… - INFO - caseList[]
-2020-04-01 17:03:40,299 - logs… - INFO - {
-  "msg": "登陆成功！",
-  "state": 0
-}
-2020-04-01 17:03:40,299 - logs… - INFO - {'username': 'tianlei@123.com', 'password': '332c87033116f0f941ea026da7b9c364'}
-2020-04-01 17:03:40,317 - logs… - INFO - {
-  "msg": "用户名或密码错误！",
+2020-04-16 17:50:52,292 - logs… - INFO - resultPathE:\py\interfaceTest_back\result\report.html
+2020-04-16 17:50:52,307 - logs… - INFO - caseListFileE:\py\interfaceTest_back\caselistgrouprun.txt
+2020-04-16 17:50:52,307 - logs… - INFO - caseList[]
+2020-04-16 17:50:53,091 - logs… - INFO - {}
+2020-04-16 17:50:53,173 - logs… - INFO - {
+  "data": {
+    "orderList": [
+      {
+        "denyCountLower": 0,
+        "denyCountUpper": 0,
+        "id": 1,
+        "levelC": 0,
+        "logic": 1,
+        "markLower": 85,
+        "markUpper": 100,
+        "mlevel": 100,
+        "updatedBy": null,
+        "updatedTime": null
+      },
+      {
+        "denyCountLower": 0,
+        "denyCountUpper": 4,
+        "id": 2,
+        "levelC": 0,
+        "logic": 0,
+        "markLower": 75,
+        "markUpper": 85,
+        "mlevel": 90,
+        "updatedBy": null,
+        "updatedTime": null
+      },
+      {
+        "denyCountLower": 4,
+        "denyCountUpper": 1000,
+        "id": 3,
+        "levelC": 0,
+        "logic": 0,
+        "markLower": 0,
+        "markUpper": 75,
+        "mlevel": 75,
+        "updatedBy": null,
+        "updatedTime": null
+      }
+    ],
+    "vesionRecord": {
+      "effectiveFlag": null,
+      "effectiveTime": null,
+      "id": null,
+      "jsonData": null,
+      "number": null,
+      "type": null,
+      "updateTime": null
+    }
+  },
+  "msg": null,
   "state": 1
 }
-2020-04-01 17:03:40,317 - logs… - INFO - {'username': 'tianlei@123.com', 'password': 'qwe123..'}
-2020-04-01 17:03:40,330 - logs… - INFO - {
-  "msg": "用户名或密码错误！",
+2020-04-16 17:50:53,174 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/orderList
+2020-04-16 17:50:53,174 - logs… - INFO - {}
+2020-04-16 17:50:53,240 - logs… - INFO - {
+  "data": {
+    "orderList": [
+      {
+        "denyCountLower": 0,
+        "denyCountUpper": 0,
+        "id": 1,
+        "levelC": 0,
+        "logic": 1,
+        "markLower": 85,
+        "markUpper": 100,
+        "mlevel": 100,
+        "updatedBy": null,
+        "updatedTime": null
+      },
+      {
+        "denyCountLower": 0,
+        "denyCountUpper": 4,
+        "id": 2,
+        "levelC": 0,
+        "logic": 0,
+        "markLower": 75,
+        "markUpper": 85,
+        "mlevel": 90,
+        "updatedBy": null,
+        "updatedTime": null
+      },
+      {
+        "denyCountLower": 4,
+        "denyCountUpper": 1000,
+        "id": 3,
+        "levelC": 0,
+        "logic": 0,
+        "markLower": 0,
+        "markUpper": 75,
+        "mlevel": 75,
+        "updatedBy": null,
+        "updatedTime": null
+      }
+    ],
+    "vesionRecord": {
+      "effectiveFlag": null,
+      "effectiveTime": null,
+      "id": null,
+      "jsonData": null,
+      "number": null,
+      "type": null,
+      "updateTime": null
+    }
+  },
+  "msg": null,
   "state": 1
 }
-2020-04-01 17:03:40,330 - logs… - INFO - {'username': 'tianlei@123.com'}
-2020-04-01 17:03:40,507 - logs… - INFO - *********TEST END*********
-2020-04-01 17:15:22,647 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:15:22,648 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:15:22,648 - logs… - INFO - caseList[]
-2020-04-01 17:15:23,183 - logs… - INFO - *********TEST END*********
-2020-04-01 17:16:51,305 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:16:51,305 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:16:51,305 - logs… - INFO - caseList[]
-2020-04-01 17:16:51,646 - logs… - INFO - 'super' object has no attribute '__getattr__'
-2020-04-01 17:16:51,646 - logs… - INFO - *********TEST END*********
-2020-04-01 17:21:35,393 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:21:35,394 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:21:35,394 - logs… - INFO - caseList[]
-2020-04-01 17:21:36,645 - logs… - INFO - *********TEST END*********
-2020-04-01 17:25:28,439 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:25:28,439 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:25:28,440 - logs… - INFO - caseList[]
-2020-04-01 17:25:28,857 - logs… - INFO - {
+2020-04-16 17:50:53,241 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/orderList
+2020-04-16 17:50:53,241 - logs… - INFO - {}
+2020-04-16 17:50:53,303 - logs… - INFO - {
   "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
+    "orderList": [
+      {
+        "denyCountLower": 0,
+        "denyCountUpper": 0,
+        "id": 1,
+        "levelC": 0,
+        "logic": 1,
+        "markLower": 85,
+        "markUpper": 100,
+        "mlevel": 100,
+        "updatedBy": null,
+        "updatedTime": null
+      },
+      {
+        "denyCountLower": 0,
+        "denyCountUpper": 4,
+        "id": 2,
+        "levelC": 0,
+        "logic": 0,
+        "markLower": 75,
+        "markUpper": 85,
+        "mlevel": 90,
+        "updatedBy": null,
+        "updatedTime": null
+      },
+      {
+        "denyCountLower": 4,
+        "denyCountUpper": 1000,
+        "id": 3,
+        "levelC": 0,
+        "logic": 0,
+        "markLower": 0,
+        "markUpper": 75,
+        "mlevel": 75,
+        "updatedBy": null,
+        "updatedTime": null
+      }
     ],
-    "userName": "田磊"
+    "vesionRecord": {
+      "effectiveFlag": null,
+      "effectiveTime": null,
+      "id": null,
+      "jsonData": null,
+      "number": null,
+      "type": null,
+      "updateTime": null
+    }
   },
   "msg": null,
-  "state": 0
-}
-2020-04-01 17:25:28,958 - logs… - INFO - {
-  "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
-    ],
-    "userName": "田磊"
-  },
-  "msg": null,
-  "state": 0
-}
-2020-04-01 17:25:29,023 - logs… - INFO - {
-  "data": 0,
-  "msg": "成功",
-  "state": 0
-}
-2020-04-01 17:25:29,072 - logs… - INFO - {
-  "data": 0,
-  "msg": "成功",
-  "state": 0
-}
-2020-04-01 17:25:29,138 - logs… - INFO - {
-  "data": null,
-  "msg": "操作成功",
-  "state": 0
-}
-2020-04-01 17:25:29,138 - logs… - INFO - {}
-2020-04-01 17:25:29,230 - logs… - INFO - {
-  "data": null,
-  "msg": "操作成功",
-  "state": 0
-}
-2020-04-01 17:25:29,230 - logs… - INFO - {}
-2020-04-01 17:25:29,231 - logs… - INFO - *********TEST END*********
-2020-04-01 17:26:29,509 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:26:29,509 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:26:29,509 - logs… - INFO - caseList[]
-2020-04-01 17:26:29,987 - logs… - INFO - {
-  "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
-    ],
-    "userName": "田磊"
-  },
-  "msg": null,
-  "state": 0
-}
-2020-04-01 17:26:30,060 - logs… - INFO - {
-  "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
-    ],
-    "userName": "田磊"
-  },
-  "msg": null,
-  "state": 0
-}
-2020-04-01 17:26:30,129 - logs… - INFO - {
-  "data": 0,
-  "msg": "成功",
-  "state": 0
-}
-2020-04-01 17:26:30,207 - logs… - INFO - {
-  "data": 0,
-  "msg": "成功",
-  "state": 0
-}
-2020-04-01 17:26:30,272 - logs… - INFO - {
-  "data": null,
-  "msg": "操作成功",
-  "state": 0
-}
-2020-04-01 17:26:30,272 - logs… - INFO - {}
-2020-04-01 17:26:30,316 - logs… - INFO - {
-  "data": null,
-  "msg": "操作成功",
-  "state": 0
-}
-2020-04-01 17:26:30,316 - logs… - INFO - {}
-2020-04-01 17:26:30,317 - logs… - INFO - *********TEST END*********
-2020-04-01 17:27:01,802 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:27:01,803 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:27:01,803 - logs… - INFO - caseList[]
-2020-04-01 17:27:02,319 - logs… - INFO - {
-  "msg": "登陆成功！",
-  "state": 0
-}
-2020-04-01 17:27:02,319 - logs… - INFO - {'username': 'tianlei@123.com', 'password': '332c87033116f0f941ea026da7b9c364'}
-2020-04-01 17:27:02,344 - logs… - INFO - {
-  "msg": "用户名或密码错误！",
   "state": 1
 }
-2020-04-01 17:27:02,344 - logs… - INFO - {'username': 'tianlei@123.com', 'password': 'qwe123..'}
-2020-04-01 17:27:02,362 - logs… - INFO - {
-  "msg": "用户名或密码错误！",
+2020-04-16 17:50:53,303 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/orderList
+2020-04-16 17:50:53,303 - logs… - INFO - {}
+2020-04-16 17:50:53,303 - logs… - INFO - {}
+2020-04-16 17:50:53,358 - logs… - INFO - {
+  "data": null,
+  "msg": "获取失败",
+  "state": 0
+}
+2020-04-16 17:50:53,358 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/logs
+2020-04-16 17:50:53,359 - logs… - INFO - {'pageNum': '1', 'pageSize': '8', 'type': '1'}
+2020-04-16 17:50:53,359 - logs… - INFO - {"pageNum": "1", "pageSize": "8", "type": "1"}
+2020-04-16 17:50:53,528 - logs… - INFO - {
+  "data": {
+    "addedMonthCount": null,
+    "addedTodayCount": null,
+    "begin": 0,
+    "key": "",
+    "pageNum": 1,
+    "pageSize": 8,
+    "rows": [
+      {
+        "effectiveTime": "2020年04月15日 00:00:08",
+        "id": 1,
+        "operatingLog": "更改甲级病案分值,至:85-100; 更改乙级病案分值,至:75-85; 更改乙级病案单项否决数范围,修改为(0,4]; 更改丙级病案单项否决数最小值,修改为:4; ",
+        "updateTime": "2020年04月14日 23:59:10",
+        "userEid": "test01",
+        "userId": null,
+        "userName": "测试01"
+      }
+    ],
+    "total": 1,
+    "totalPage": 1
+  },
+  "msg": "成功",
   "state": 1
 }
-2020-04-01 17:27:02,362 - logs… - INFO - {'username': 'tianlei@123.com'}
-2020-04-01 17:27:02,445 - logs… - INFO - {
+2020-04-16 17:50:53,528 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/logs
+2020-04-16 17:50:53,528 - logs… - INFO - {'pageNum': '2', 'pageSize': '8', 'type': '1'}
+2020-04-16 17:50:53,528 - logs… - INFO - {"pageNum": "2", "pageSize": "8", "type": "1"}
+2020-04-16 17:50:53,586 - logs… - INFO - {
   "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
+    "addedMonthCount": null,
+    "addedTodayCount": null,
+    "begin": 0,
+    "key": "",
+    "pageNum": 1,
+    "pageSize": 8,
+    "rows": [
+      {
+        "effectiveTime": "2020年04月15日 00:00:08",
+        "id": 1,
+        "operatingLog": "更改甲级病案分值,至:85-100; 更改乙级病案分值,至:75-85; 更改乙级病案单项否决数范围,修改为(0,4]; 更改丙级病案单项否决数最小值,修改为:4; ",
+        "updateTime": "2020年04月14日 23:59:10",
+        "userEid": "test01",
+        "userId": null,
+        "userName": "测试01"
+      }
     ],
-    "userName": "田磊"
+    "total": 1,
+    "totalPage": 1
   },
-  "msg": null,
-  "state": 0
-}
-2020-04-01 17:27:02,524 - logs… - INFO - {
-  "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
-    ],
-    "userName": "田磊"
-  },
-  "msg": null,
-  "state": 0
-}
-2020-04-01 17:27:02,606 - logs… - INFO - {
-  "data": 0,
   "msg": "成功",
-  "state": 0
-}
-2020-04-01 17:27:02,688 - logs… - INFO - {
-  "data": 0,
-  "msg": "成功",
-  "state": 0
-}
-2020-04-01 17:27:02,768 - logs… - INFO - {
-  "data": null,
-  "msg": "操作成功",
-  "state": 0
-}
-2020-04-01 17:27:02,768 - logs… - INFO - {}
-2020-04-01 17:27:02,900 - logs… - INFO - {
-  "data": null,
-  "msg": "操作成功",
-  "state": 0
-}
-2020-04-01 17:27:02,900 - logs… - INFO - {}
-2020-04-01 17:27:02,901 - logs… - INFO - *********TEST END*********
-2020-04-01 17:27:09,474 - logs… - INFO - resultPathE:\py\interfaceTest\result\report.html
-2020-04-01 17:27:09,474 - logs… - INFO - caseListFileE:\py\interfaceTest\caselist.txt
-2020-04-01 17:27:09,474 - logs… - INFO - caseList[]
-2020-04-01 17:27:09,819 - logs… - INFO - {
-  "msg": "登陆成功！",
-  "state": 0
-}
-2020-04-01 17:27:09,819 - logs… - INFO - {'username': 'tianlei@123.com', 'password': '332c87033116f0f941ea026da7b9c364'}
-2020-04-01 17:27:09,846 - logs… - INFO - {
-  "msg": "用户名或密码错误！",
   "state": 1
 }
-2020-04-01 17:27:09,846 - logs… - INFO - {'username': 'tianlei@123.com', 'password': 'qwe123..'}
-2020-04-01 17:27:09,864 - logs… - INFO - {
-  "msg": "用户名或密码错误！",
+2020-04-16 17:50:53,586 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/logs
+2020-04-16 17:50:53,667 - logs… - INFO - {
+  "data": null,
+  "msg": "保存成功",
   "state": 1
 }
-2020-04-01 17:27:09,864 - logs… - INFO - {'username': 'tianlei@123.com'}
-2020-04-01 17:27:09,966 - logs… - INFO - {
-  "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
-    ],
-    "userName": "田磊"
-  },
-  "msg": null,
-  "state": 0
-}
-2020-04-01 17:27:10,015 - logs… - INFO - {
-  "data": {
-    "avatar": "",
-    "roles": [
-      "ROLE_COLLABORATOR",
-      "ROLE_ADMIN",
-      "ROLE_SUPER_ADMIN",
-      "ROLE_MEDICAL_TERMINOLOGY",
-      "ROLE_EXAM_MEDICAL_TERMINOLOGY",
-      "ROLE_PARTICIPLE",
-      "ROLE_EXAM_PARTICIPLE"
-    ],
-    "userName": "田磊"
-  },
-  "msg": null,
-  "state": 0
-}
-2020-04-01 17:27:10,087 - logs… - INFO - {
-  "data": 0,
-  "msg": "成功",
-  "state": 0
-}
-2020-04-01 17:27:10,174 - logs… - INFO - {
-  "data": 0,
-  "msg": "成功",
-  "state": 0
-}
-2020-04-01 17:27:10,261 - logs… - INFO - {
+2020-04-16 17:50:53,667 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/save
+2020-04-16 17:50:53,753 - logs… - INFO - {
   "data": null,
-  "msg": "操作成功",
+  "msg": "更新过于频繁,请10分钟后再操作.",
   "state": 0
 }
-2020-04-01 17:27:10,261 - logs… - INFO - {}
-2020-04-01 17:27:10,330 - logs… - INFO - {
+2020-04-16 17:50:53,753 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/save
+2020-04-16 17:50:53,836 - logs… - INFO - {
   "data": null,
-  "msg": "操作成功",
+  "msg": "更新过于频繁,请10分钟后再操作.",
   "state": 0
 }
-2020-04-01 17:27:10,330 - logs… - INFO - {}
-2020-04-01 17:27:10,331 - logs… - INFO - *********TEST END*********
+2020-04-16 17:50:53,836 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/save
+2020-04-16 17:50:53,916 - logs… - INFO - {
+  "data": [
+    {
+      "currentRule": null,
+      "groupId": 5,
+      "isDelete": 0,
+      "remarks": "默认规则",
+      "ruleName": "颐圣质控管理规则",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 6,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则1",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 7,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则1申诉",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 8,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-123",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 10,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-1231",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 11,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-123312",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 12,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-12318754",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 13,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 14,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 15,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 16,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 17,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 18,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 19,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 20,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 21,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 22,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 23,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 24,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 25,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 26,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 27,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 28,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 29,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 30,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 31,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 32,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 33,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    }
+  ],
+  "msg": "成功",
+  "state": 1
+}
+2020-04-16 17:50:53,916 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/groups
+2020-04-16 17:50:53,979 - logs… - INFO - {
+  "data": [
+    {
+      "currentRule": null,
+      "groupId": 5,
+      "isDelete": 0,
+      "remarks": "默认规则",
+      "ruleName": "颐圣质控管理规则",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 6,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则1",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 7,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则1申诉",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 8,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-123",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 10,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-1231",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 11,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-123312",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 12,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-12318754",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 13,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 14,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 15,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 16,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 17,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 18,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 19,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 20,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 21,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 22,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 23,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 24,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 25,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 26,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 27,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 28,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 29,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 30,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 31,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 32,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 33,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    }
+  ],
+  "msg": "成功",
+  "state": 1
+}
+2020-04-16 17:50:53,979 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/groups
+2020-04-16 17:50:54,060 - logs… - INFO - {
+  "data": [
+    {
+      "currentRule": null,
+      "groupId": 5,
+      "isDelete": 0,
+      "remarks": "默认规则",
+      "ruleName": "颐圣质控管理规则",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 6,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则1",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 7,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则1申诉",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 8,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-123",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 10,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-1231",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 11,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-123312",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 12,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "run-12318754",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 13,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 14,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 15,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 16,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 17,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 18,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 19,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 20,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 21,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 22,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 23,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 24,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 25,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 0
+    },
+    {
+      "currentRule": null,
+      "groupId": 26,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 27,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 28,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 29,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 30,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 31,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 32,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-56",
+      "useState": 1
+    },
+    {
+      "currentRule": null,
+      "groupId": 33,
+      "isDelete": 0,
+      "remarks": null,
+      "ruleName": "颐圣质控管理规则-57",
+      "useState": 1
+    }
+  ],
+  "msg": "成功",
+  "state": 1
+}
+2020-04-16 17:50:54,060 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/groups
+2020-04-16 17:50:54,061 - logs… - INFO - {}
+2020-04-16 17:50:54,061 - logs… - INFO - {}
+2020-04-16 17:50:54,115 - logs… - INFO - {
+  "data": null,
+  "msg": "获取失败",
+  "state": 0
+}
+2020-04-16 17:50:54,115 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/logs
+2020-04-16 17:50:54,116 - logs… - INFO - {'pageNum': '1', 'pageSize': '8'}
+2020-04-16 17:50:54,116 - logs… - INFO - {"pageNum": "1", "pageSize": "8"}
+2020-04-16 17:50:54,169 - logs… - INFO - {
+  "data": {
+    "addedMonthCount": null,
+    "addedTodayCount": null,
+    "begin": 0,
+    "key": "",
+    "pageNum": 1,
+    "pageSize": 8,
+    "rows": [
+      {
+        "effectiveTime": "2020年04月15日 00:00:08",
+        "id": 1,
+        "operatingLog": "更改甲级病案分值,至:85-100; 更改乙级病案分值,至:75-85; 更改乙级病案单项否决数范围,修改为(0,4]; 更改丙级病案单项否决数最小值,修改为:4; ",
+        "updateTime": "2020年04月14日 23:59:10",
+        "userEid": "test01",
+        "userId": null,
+        "userName": "测试01"
+      }
+    ],
+    "total": 1,
+    "totalPage": 1
+  },
+  "msg": "成功",
+  "state": 1
+}
+2020-04-16 17:50:54,169 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/logs
+2020-04-16 17:50:54,169 - logs… - INFO - {'pageNum': '2', 'pageSize': '8'}
+2020-04-16 17:50:54,169 - logs… - INFO - {"pageNum": "2", "pageSize": "8"}
+2020-04-16 17:50:54,225 - logs… - INFO - {
+  "data": {
+    "addedMonthCount": null,
+    "addedTodayCount": null,
+    "begin": 0,
+    "key": "",
+    "pageNum": 1,
+    "pageSize": 8,
+    "rows": [
+      {
+        "effectiveTime": "2020年04月15日 00:00:08",
+        "id": 1,
+        "operatingLog": "更改甲级病案分值,至:85-100; 更改乙级病案分值,至:75-85; 更改乙级病案单项否决数范围,修改为(0,4]; 更改丙级病案单项否决数最小值,修改为:4; ",
+        "updateTime": "2020年04月14日 23:59:10",
+        "userEid": "test01",
+        "userId": null,
+        "userName": "测试01"
+      }
+    ],
+    "total": 1,
+    "totalPage": 1
+  },
+  "msg": "成功",
+  "state": 1
+}
+2020-04-16 17:50:54,225 - logs… - INFO - http://192.168.0.244:8600/api/back/level/run/logs
+2020-04-16 17:50:54,226 - logs… - INFO - {"groupId":25,"ruleName":"颐圣质控管理规则-56","remarks":""}
+2020-04-16 17:50:54,335 - logs… - INFO - {
+  "data": null,
+  "msg": "失败",
+  "state": 0
+}
+2020-04-16 17:50:54,335 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/copy
+2020-04-16 17:50:54,353 - logs… - INFO - {"groupId":25,"ruleName":"颐圣质控管理规则-56","remarks":""}
+2020-04-16 17:50:54,441 - logs… - INFO - {
+  "data": null,
+  "msg": "失败",
+  "state": 0
+}
+2020-04-16 17:50:54,442 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/copy
+2020-04-16 17:50:54,442 - logs… - INFO - {"groupId":25,"ruleName":"颐圣质控管理规则-57","remarks":""}
+2020-04-16 17:50:54,517 - logs… - INFO - {
+  "data": null,
+  "msg": "失败",
+  "state": 0
+}
+2020-04-16 17:50:54,518 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/copy
+2020-04-16 17:50:54,562 - logs… - INFO - b'{"number":7,"effectiveFlag":1,"ruleGroups":[{"departmentId":1,"groupId":20},{"departmentId":2,"groupId":25},{"departmentId":3,"groupId":12},{"departmentId":4,"groupId":12},{"departmentId":5,"groupId":12},{"departmentId":6,"groupId":12},{"departmentId":7,"groupId":12},{"departmentId":8,"groupId":12},{"departmentId":9,"groupId":14},{"departmentId":172,"groupId":1},{"departmentId":173,"groupId":1}],"mainDiagnoseRuleGroups":[{"id":12,"name":"\xe8\x84\x91\xe6\xa2\x97\xe6\xad\xbb","groupId":23,"ruleGroupName":"888888","oldIndex":0}]}\n'
+2020-04-16 17:50:54,615 - logs… - INFO - {
+  "data": null,
+  "msg": "规则组修改将于明日生效",
+  "state": 1
+}
+2020-04-16 17:50:54,616 - logs… - INFO - http://192.168.0.244:8600/api/back/distribution/run/save
+2020-04-16 17:50:54,653 - logs… - INFO - b''
+2020-04-16 17:50:54,664 - logs… - INFO - {
+  "error": "Bad Request",
+  "message": "Required request body is missing: public com.doctorai.ip.back.common.version.Result com.doctorai.ip.back.controller.qc_rule_run.RuleGroupAssignmentRunController.saveGroupList(com.doctorai.ip.back.rule.run.entity.vo.RuleGroupVo,javax.servlet.http.HttpServletRequest)",
+  "path": "/back/distribution/run/save",
+  "status": 400,
+  "timestamp": "2020-04-16T09:51:53.630+0000"
+}
+2020-04-16 17:50:54,664 - logs… - INFO - http://192.168.0.244:8600/api/back/distribution/run/save
+2020-04-16 17:50:54,722 - logs… - INFO - b'{"number":7,"effectiveFlag":-1,"ruleGroups":[{"departmentId":1,"groupId":25},{"departmentId":2,"groupId":12},{"departmentId":3,"groupId":12},{"departmentId":4,"groupId":12},{"departmentId":5,"groupId":12},{"departmentId":6,"groupId":12},{"departmentId":7,"groupId":12},{"departmentId":8,"groupId":12},{"departmentId":9,"groupId":14},{"departmentId":10,"groupId":12},{"departmentId":11,"groupId":12},{"departmentId":12,"groupId":12},{"departmentId":13,"groupId":12},{"departmentId":14,"groupId":12},{"departmentId":15,"groupId":12},{"departmentId":16,"groupId":12},{"departmentId":17,"groupId":12},{"departmentId":18,"groupId":12},{"departmentId":19,"groupId":12},{"departmentId":20,"groupId":12},{"departmentId":23,"groupId":12},{"departmentId":25,"groupId":12},{"departmentId":26,"groupId":12},{"departmentId":27,"groupId":12},{"departmentId":28,"groupId":12},{"departmentId":30,"groupId":12},{"departmentId":31,"groupId":12},{"departmentId":32,"groupId":12},{"departmentId":34,"groupId":12},{"departmentId":35,"groupId":12},{"departmentId":38,"groupId":12},{"departmentId":39,"groupId":12},{"departmentId":42,"groupId":12},{"departmentId":44,"groupId":12},{"departmentId":45,"groupId":12},{"departmentId":46,"groupId":12},{"departmentId":50,"groupId":12},{"departmentId":51,"groupId":12},{"departmentId":55,"groupId":12},{"departmentId":56,"groupId":12},{"departmentId":60,"groupId":12},{"departmentId":62,"groupId":12},{"departmentId":65,"groupId":12},{"departmentId":67,"groupId":12},{"departmentId":68,"groupId":12},{"departmentId":70,"groupId":12},{"departmentId":71,"groupId":12},{"departmentId":73,"groupId":12},{"departmentId":74,"groupId":12},{"departmentId":77,"groupId":12},{"departmentId":79,"groupId":12},{"departmentId":82,"groupId":12},{"departmentId":83,"groupId":12},{"departmentId":84,"groupId":12},{"departmentId":86,"groupId":12},{"departmentId":88,"groupId":12},{"departmentId":89,"groupId":12},{"departmentId":90,"groupId":12},{"departmentId":95,"groupId":12},{"departmentId":100,"groupId":12},{"departmentId":101,"groupId":12},{"departmentId":103,"groupId":12},{"departmentId":105,"groupId":12},{"departmentId":106,"groupId":12},{"departmentId":107,"groupId":12},{"departmentId":108,"groupId":12},{"departmentId":109,"groupId":12},{"departmentId":110,"groupId":1},{"departmentId":111,"groupId":1},{"departmentId":112,"groupId":1},{"departmentId":113,"groupId":1},{"departmentId":114,"groupId":1},{"departmentId":115,"groupId":1},{"departmentId":116,"groupId":1},{"departmentId":117,"groupId":1},{"departmentId":118,"groupId":1},{"departmentId":119,"groupId":1},{"departmentId":120,"groupId":1},{"departmentId":121,"groupId":1},{"departmentId":122,"groupId":1},{"departmentId":123,"groupId":1},{"departmentId":124,"groupId":1},{"departmentId":125,"groupId":1},{"departmentId":126,"groupId":1},{"departmentId":127,"groupId":1},{"departmentId":128,"groupId":1},{"departmentId":129,"groupId":1},{"departmentId":130,"groupId":1},{"departmentId":131,"groupId":1},{"departmentId":132,"groupId":1},{"departmentId":133,"groupId":1},{"departmentId":134,"groupId":1},{"departmentId":135,"groupId":1},{"departmentId":136,"groupId":1},{"departmentId":137,"groupId":1},{"departmentId":138,"groupId":1},{"departmentId":139,"groupId":1},{"departmentId":140,"groupId":1},{"departmentId":141,"groupId":1},{"departmentId":142,"groupId":1},{"departmentId":143,"groupId":1},{"departmentId":144,"groupId":1},{"departmentId":145,"groupId":1},{"departmentId":146,"groupId":1},{"departmentId":147,"groupId":1},{"departmentId":148,"groupId":1},{"departmentId":149,"groupId":1},{"departmentId":150,"groupId":1},{"departmentId":151,"groupId":1},{"departmentId":152,"groupId":1},{"departmentId":153,"groupId":1},{"departmentId":154,"groupId":1},{"departmentId":155,"groupId":1},{"departmentId":156,"groupId":1},{"departmentId":157,"groupId":1},{"departmentId":158,"groupId":1},{"departmentId":159,"groupId":1},{"departmentId":160,"groupId":1},{"departmentId":161,"groupId":1},{"departmentId":162,"groupId":1},{"departmentId":163,"groupId":1},{"departmentId":164,"groupId":1},{"departmentId":165,"groupId":1},{"departmentId":166,"groupId":1},{"departmentId":167,"groupId":1},{"departmentId":168,"groupId":1},{"departmentId":169,"groupId":1},{"departmentId":170,"groupId":1},{"departmentId":171,"groupId":1},{"departmentId":172,"groupId":1},{"departmentId":173,"groupId":1}],"mainDiagnoseRuleGroups":[{"id":12,"name":"\xe8\x84\x91\xe6\xa2\x97\xe6\xad\xbb","groupId":23,"ruleGroupName":"888888","oldIndex":0}]}'
+2020-04-16 17:50:54,805 - logs… - INFO - {
+  "data": null,
+  "msg": "更新过于频繁,请10分钟后再操作.",
+  "state": 0
+}
+2020-04-16 17:50:54,805 - logs… - INFO - http://192.168.0.244:8600/api/back/distribution/run/save
+2020-04-16 17:50:54,806 - logs… - INFO - {}
+2020-04-16 17:50:54,874 - logs… - INFO - {
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabel/run/listLabel",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:53.842+0000"
+}
+2020-04-16 17:50:54,874 - logs… - INFO - http://192.168.0.244:8600/api/back/itemLabel/run/listLabel
+2020-04-16 17:50:54,875 - logs… - INFO - {}
+2020-04-16 17:50:54,924 - logs… - INFO - {
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabel/run/listLabel",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:53.891+0000"
+}
+2020-04-16 17:50:54,924 - logs… - INFO - http://192.168.0.244:8600/api/back/itemLabel/run/listLabel
+2020-04-16 17:50:54,924 - logs… - INFO - {}
+2020-04-16 17:50:54,977 - logs… - INFO - {
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabel/run/listLabel",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:53.944+0000"
+}
+2020-04-16 17:50:54,977 - logs… - INFO - http://192.168.0.244:8600/api/back/itemLabel/run/listLabel
+2020-04-16 17:50:54,978 - logs… - INFO - {}
+2020-04-16 17:50:55,036 - logs… - INFO - {
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabelAllot/run/save",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:54.000+0000"
+}
+2020-04-16 17:50:55,036 - logs… - INFO - http://192.168.0.244:8600/api/back/itemLabelAllot/run/save
+2020-04-16 17:50:55,053 - logs… - INFO - {}
+2020-04-16 17:50:55,102 - logs… - INFO - {
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabelAllot/run/save",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:54.069+0000"
+}
+2020-04-16 17:50:55,102 - logs… - INFO - http://192.168.0.244:8600/api/back/itemLabelAllot/run/save
+2020-04-16 17:50:55,103 - logs… - INFO - {}
+2020-04-16 17:50:55,166 - logs… - INFO - {
+  "error": "Not Found",
+  "message": "No message available",
+  "path": "/back/itemLabelAllot/run/save",
+  "status": 404,
+  "timestamp": "2020-04-16T09:51:54.133+0000"
+}
+2020-04-16 17:50:55,166 - logs… - INFO - http://192.168.0.244:8600/api/back/itemLabelAllot/run/save
+2020-04-16 17:50:55,168 - logs… - INFO - {'groupId': '56'}
+2020-04-16 17:50:55,253 - logs… - INFO - {
+  "data": null,
+  "msg": "成功",
+  "state": 1
+}
+2020-04-16 17:50:55,253 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/delete
+2020-04-16 17:50:55,254 - logs… - INFO - {'groupId': '56'}
+2020-04-16 17:50:55,345 - logs… - INFO - {
+  "data": null,
+  "msg": "成功",
+  "state": 1
+}
+2020-04-16 17:50:55,346 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/delete
+2020-04-16 17:50:55,361 - logs… - INFO - {'groupId': '1000'}
+2020-04-16 17:50:55,447 - logs… - INFO - {
+  "data": null,
+  "msg": "成功",
+  "state": 1
+}
+2020-04-16 17:50:55,448 - logs… - INFO - http://192.168.0.244:8600/api/back/score/run/delete
+2020-04-16 17:50:55,504 - logs… - INFO - {
+  "data": [
+    "INPUT_DATE_OF_ADMISSION",
+    "INPUT_MEDICAL_RECORD_NUMBER",
+    "INPUT_DEPARTMENT_OF_ADMISSION",
+    "INPUT_HOSPITALIZATION_NUMBER",
+    "INPUT_DISCHARGE_DATE",
+    "INPUT_CAUSES_OF_DEFECTS_RUNNING",
+    "INPUT_OPERATION",
+    "INPUT_FRACTION",
+    "INPUT_NAME_OF_PATIENT",
+    "INPUT_APPEAL_STATUS",
+    "INPUT_DATE_OF_UPDATE",
+    "INPUT_LEAVE_WAY",
+    "INPUT_MEDICAL_RECORD_STATUS",
+    "INPUT_CHIEF_DOCTOR",
+    "INPUT_MAJOR_DIAGNOSIS"
+  ],
+  "msg": "success",
+  "state": 1
+}
+2020-04-16 17:50:55,504 - logs… - INFO - http://192.168.0.244:8600/api/back/config/run/select
+2020-04-16 17:50:55,559 - logs… - INFO - {
+  "error": "Bad Request",
+  "message": "Required request body is missing: public com.doctorai.ip.back.common.Result com.doctorai.ip.back.controller.header_conf.HeaderConfigRunController.select(java.util.Map)",
+  "path": "/back/config/run/select",
+  "status": 400,
+  "timestamp": "2020-04-16T09:51:54.526+0000"
+}
+2020-04-16 17:50:55,559 - logs… - INFO - http://192.168.0.244:8600/api/back/config/run/select
+2020-04-16 17:50:55,624 - logs… - INFO - {
+  "data": [
+    "HEAD_MEDICAL_RECORD_NUMBER",
+    "HEAD_HOSPITALIZATION_NUMBER",
+    "HEAD_MAJOR_DIAGNOSIS",
+    "HEAD_DATE_OF_UPDATE",
+    "HEAD_DEPARTMENT_OF_ADMISSION",
+    "HEAD_CHIEF_DOCTOR",
+    "HEAD_DEPARTMENT_OF_DISCHARGE",
+    "HEAD_PATIENT_INFORMATION"
+  ],
+  "msg": "success",
+  "state": 1
+}
+2020-04-16 17:50:55,624 - logs… - INFO - http://192.168.0.244:8600/api/back/config/run/select
+2020-04-16 17:50:55,626 - logs… - INFO - *********TEST END*********

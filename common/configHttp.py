@@ -1,6 +1,7 @@
 import requests
 import json
 from common.Log import logger
+from testCase.login import Get_Token
 
 logger = logger
 class RunMain():
@@ -21,12 +22,24 @@ class RunMain():
 
         if token!=None:
             headers = {
+                # Cookie
+                "Cookie": "JSESSIONID=" + token,
+                # 传输
+                "Connection": "keep - alive",
+                "Host": "192.168.0.244:8600",
+                # 缓存
                 "Cache-Control": "no-cache",
-                "Accept": "*/*",
                 "Content-Type": "application/json;charset=UTF-8",
+                # 客户端
+                "Accept": "application/json, text/plain, */*",
                 "Accept-Encoding": "gzip, deflate",
                 "Accept-Language": "zh-CN,zh;q=0.9",
-                "Cookie": "SESSION=" + token
+                "User - Agent": "Mozilla / 5.0(Windows NT 10.0;Win64;x64) AppleWebKit / 537.36(KHTML, likeGecko) Chrome / 80.0.3987.149Safari / 537.36",
+                # 实体
+                "Content - Length": "0",
+                # 杂项
+                "Referer": "http: // 192.168.0.244: 8600 /"
+
             }
         else:
             headers=None
@@ -43,28 +56,30 @@ class RunMain():
             logger.info("method值错误！！！")
         return result
 if __name__ == '__main__':#通过写死参数，来验证我们写的请求是否正确
-    # result = RunMain().run_main('post', 'http://127.0.0.1:8888/login', 'name=xiaoming&pwd=')
-    # print(result)
-
-    login_data = {
-        "username": "tianlei@123.com",
-        "password": "332c87033116f0f941ea026da7b9c364"
-    }
-    login_result = requests.post(url='http://192.168.0.200:8333/api/login', data=login_data)
-    login_res = json.dumps(login_result.json(), ensure_ascii=False, sort_keys=True, indent=2)
-    print(login_res)
-    token = login_result.cookies.items()[0][1]
+    token=Get_Token().get_Token()
     print(token)
     headers = {
+        #Cookie
+        "Cookie": "JSESSIONID=" + token,
+        #传输
+        "Connection": "keep - alive",
+        "Host": "192.168.0.244:8600",
+        #缓存
         "Cache-Control": "no-cache",
-        "Accept": "*/*",
         "Content-Type": "application/json;charset=UTF-8",
+        # 客户端
+        "Accept": "application/json, text/plain, */*",
         "Accept-Encoding": "gzip, deflate",
         "Accept-Language": "zh-CN,zh;q=0.9",
-        "Cookie": "SESSION=" + token
+        "User - Agent": "Mozilla / 5.0(Windows NT 10.0;Win64;x64) AppleWebKit / 537.36(KHTML, likeGecko) Chrome / 80.0.3987.149Safari / 537.36",
+        #实体
+        "Content - Length": "0",
+        #杂项
+        "Referer": "http: // 192.168.0.244: 8600 /"
+
     }
     print(json.dumps(headers))
-    data = "{}"
-    result = requests.post(url='http://192.168.0.200:8333/api/term/topic', data=data, headers=headers).json()
+    data = '{123}'
+    result = requests.post(url='http://192.168.0.244:8600/api/lg/one', data=data, headers=headers).json()
     res = json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2)
     print(res)

@@ -1,0 +1,15 @@
+user/test_auth_groups
+user/test_userm_list
+user/test_auth_authDetail
+user/test_auth_modifyAuthDetail
+user/test_auth_listPermissionLo
+user/test_user_level
+user/test_user_department
+user/test_user_profession
+user/test_user_role
+user/test_userm_update
+user/test_userm_auth_history
+user/test_userm_password_reset
+user/test_userm_remove
+
+

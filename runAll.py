@@ -39,7 +39,6 @@ class AllTest:#定义一个类AllTest
 
     def set_case_suite(self):
         """
-
         :return:
         """
         self.set_case_list()#通过set_case_list()拿到caselist元素组
@@ -68,10 +67,8 @@ class AllTest:#定义一个类AllTest
         """
         try:
             suit = self.set_case_suite()#调用set_case_suite获取test_suite
-            print('try')
             print(str(suit))
             if suit is not None:#判断test_suite是否为空
-                print('if-suit')
                 fp = open(resultPath, 'wb')#打开result/20181108/report.html测试报告文件，如果不存在就创建
                 #调用HTMLTestRunner
                 runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='Test Report', description='Test Description')

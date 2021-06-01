@@ -9,23 +9,27 @@ import readExcel
 # pythoncom.CoInitialize()
 
 url = geturlParams.geturlParams().get_Url()# 调用我们的geturlParams获取我们拼接的URL
-login_xls = readExcel.readExcel().get_xls('userCase.xlsx', 'login')
+login_xls = readExcel.readExcel().get_xls('userCase002.xlsx', 'team_message')
+
 
 @paramunittest.parametrized(*login_xls)
 class testUserLogin(unittest.TestCase):
-    def setParameters(self, case_name, path, query, method):
+    def setParameters(self, case_name, path, query, method, status):
         """
         set params
         :param case_name:
         :param path
         :param query
         :param method
+        :param status
         :return:
         """
         self.case_name = str(case_name)
         self.path = str(path)
         self.query = str(query)
         self.method = str(method)
+        self.status = str(status)
+
 
     def description(self):
         """
